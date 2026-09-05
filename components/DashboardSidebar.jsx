@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAuth } from "../context/AuthContext";
 
-
 const menus = {
   user: [
     { href: "/dashboard/user/hiring-history", label: "Hiring History" },

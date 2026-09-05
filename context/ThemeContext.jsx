@@ -10,7 +10,6 @@ export function ThemeProvider({ children }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("legalease_theme") || "light";
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTheme(saved);
     document.documentElement.classList.toggle("dark", saved === "dark");
     setMounted(true);
