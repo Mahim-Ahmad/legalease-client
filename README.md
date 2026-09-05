@@ -15,11 +15,4 @@ LegalEase connects clients with verified lawyers — browse by specialization, h
 ## Tech Stack
 Next.js (App Router), Better Auth + MongoDB, Tailwind CSS, Framer Motion, Stripe Elements, react-hot-toast, lucide-react
 
-## Setup
-```bash
-npm install
-cp .env.local.example .env.local   # fill in MongoDB, Better Auth, Google OAuth, JWT_SECRET, API URL, imgBB key, Stripe publishable key
-npm run dev
-```
 
-Make sure the [LegalEase server](../legalease-server) is running and `NEXT_PUBLIC_API_URL` points to it, with `JWT_SECRET` matching exactly on both sides.
